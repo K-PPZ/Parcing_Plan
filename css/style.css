@@ -1,0 +1,67 @@
+body {
+    background-color: #799BCE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+div {
+    background-color: white;
+    border-radius: 5px;
+    width: 900px;
+    padding: 2% 7%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    font-weight: bold;
+    box-shadow: 0px 9px 13px 5px rgba(0,0,0,0.37);
+}
+
+section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+section:hover {
+    background-color: #F7F7F7;
+    cursor: pointer;
+}
+
+#desktop {
+    margin: auto 50px;
+}
+
+img {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #A3A4A5;
+    line-height: 1.5;
+}
+
+.title {
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.prix {
+    font-size: 30px;
+}
+
+span {
+    font-size: 17px;
+}
+
+.dollard {
+    font-size: 17px;
+}
+
+.title_and_prix {
+    color: #4B67D2;
+}
